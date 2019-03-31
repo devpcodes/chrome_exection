@@ -1,0 +1,105 @@
+.default__box {
+    h1 {
+        margin-top: 0;
+        text-align: center;
+        color: #24a9c1;
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    padding: 30px;
+    padding-top: 30px;
+
+
+
+    .ant-tabs{
+        .ant-input {
+            &:focus {
+                border: 1px solid #71bfdc;
+            }
+            &:hover {
+                border: 1px solid#2babbf;
+            }
+        }
+    }
+    .has-error{
+        font-size: 1rem;
+    }
+
+    .btn__box {
+        margin-top: 20px;
+        .ant-btn {
+            color: #219fb9;
+            background-color: white;
+            box-shadow: unset;
+            width: 100%;
+            border: 1px solid #219fb9;
+            margin-bottom: 10px;
+            font-weight: 500;
+            &:hover{
+                color: white;
+                background-color: #219fb9;
+                // border: 1px solid #71bfdc;
+                // color: #71bfdc;
+            }
+        }
+    }
+}
+
+.ant-row,.ant-form-item {
+    width: 100%;
+    .ant-form-item-control-wrapper {
+        width: 100%;
+    }
+}
+.backRoot {
+    margin-top: 10px;
+    a {
+        color: #0b6c7b;
+        &:hover {
+            color: #17b8d1;
+        }
+    }
+}
+.menu__box {
+    height: 150px;
+    overflow: auto;
+    // border-bottom: 1px solid #efefef;
+}
+.permission {
+    margin-top: 20px;
+    &__text {
+        margin-right: 8px;
+    }
+}
+
+
+.ant-btn {
+    margin-right: 20px;
+}
+
+
+
+.ant-tabs-nav .ant-tabs-tab-active {
+    color: #219fb9;
+}
+.ant-tabs-ink-bar {
+    background-color: #0ec3e4;
+}
+.ant-tabs-nav .ant-tabs-tab:hover {
+    color: #27c0df;
+}
+
+.ant-tabs-tab {
+    color: #909090;
+}
+
+.ant-switch-checked  {
+    background-color: #219fb9;
+}
+
+.checkUrl{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+

@@ -1,0 +1,26 @@
+.wrapper{
+    width: 485px;
+    height: 600px;
+    position: relative;
+    // border: 1px solid #cccccc;
+}
+
+.ant-btn {
+    color: white;
+    background-color: #219fb9;
+    border: #219fb9;
+    &:hover{
+        background-color: #fff;
+        border: 1px solid #71bfdc;
+        color: #71bfdc;
+    }
+}
+
+.ant-input {
+    &:focus {
+        border: 1px solid #71bfdc;
+    }
+    &:hover {
+        border: 1px solid#71bfdc;
+    }
+}
